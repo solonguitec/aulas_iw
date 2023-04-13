@@ -1,0 +1,18 @@
+p{
+    columns: black;
+}
+
+.um{
+    color: rgb(240, 0, 0);
+}
+.dois{
+    color: blueviolet;
+}
+.tres{
+    color: rgb(255, 0, 0);
+}
+#titulo{
+    color: brown;
+    border: 2px solid blue;
+    background-color: black;
+}
