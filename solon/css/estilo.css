@@ -1,0 +1,20 @@
+.banner{
+    width: 100%;
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+}
+
+.container{
+    width: 80%;
+    background-color: bisque;
+    margin: auto;
+
+}
+
+footer{
+background-color: bisque;
+width: 100%;
+
+}
