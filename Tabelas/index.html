@@ -1,0 +1,84 @@
+
+<IDOCTYPE html>
+<html lang="pt-br">
+<head>
+ <title>TABELA 1</title>
+
+
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif; /*TIPO DA FONTE*/
+}
+table { 
+    width: 500px; /*LARGURA DA TABELA*/
+border-collapse: collapse; /*ELIMINA ESPAÇO ENTRE AS CÉLULAS*/
+} td,
+th{ border: 1px solid black; /*ESPESSURA E ESTILO DA BORDA DAS CÉLULAS*/
+padding: 10px; /*DISTÂNCIA ENTRE O CONTEÚDO E AS BORDAS*/
+} caption {
+font-size: 22px; /*TAMANHO DA FONTE DO TÍTULO DA TABELA*/ font-weight: bold; /*PESO OU INTENSIDADE DA FONTE*/
+padding: 10px; /*DISTANCIA ENTRE O CONTEÚDO E AS BORDAS"/ background-color: lightgray; /*COR DO FUNDO DO TÍTULO DA TABELA"/
+}
+thead, tfoot (
+background-color: #383838; /*COR DO FUNDO DO CABEÇALHO E RODAPÉ DA TABELA*/
+color: white; /*COR DA FONTE*/
+}
+tbody> tr:nth-child(odd) { /*LINHAS IMPARES*/ background-color: white; /*COR DE FUNDO DA LINHA*/
+}
+tbody> tr:nth-child(even) { /*LINHAS PARES*/ background-color: lightgray; /*COR DE FUNDO DA LINHA/
+}
+td.num { text-align: right; /*ALINHAMENTO DO TEXTO DA CLASS "NU"*/
+}
+</style>
+</head>
+
+<body> <h1>ESTRUTURA DE TABELAS GRANDES</h1>
+
+<table>
+<caption>POPULAÇÃO DOS ESTADOS</caption>
+
+
+
+<thead>
+
+<tr> <th colspan="2">SUDESTE</th>
+</tr>
+
+<tr>
+
+
+<th>Estado</th>
+<th style="width: 50px;">Quantidade</th>
+</tr>
+
+</thead>
+
+<tr>
+
+<td>São Paulo</td>
+<td class="num">44 milhões </td>
+</tr>
+<tr>
+<td>Minas Gerais</td>
+<td class="num">20 milhões</td>
+</tr>
+<tr>
+<td>Rio de Janeiro</td>
+<td class="num">16 milhões</td>
+</tr>
+<tr>
+<td>Espírito Santo</td> <td class="num">4 milhões</td>
+</tr>
+<tfoot>
+<tr>
+
+<th>Total de Habitantes</th>
+<td class="num"><strong>84 milhões</strong></td>
+</tr>
+
+
+</tfoot>
+
+</body>
+</html>
+
